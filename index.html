@@ -11,7 +11,7 @@
   </head>
 
   <body class="bg-gray-100">
-    <section class="py-10 md:py-16 h-screen flex items-center justify-center">
+    <section class="py-10 md:py-16 px-4 sm:px-12 h-screen flex items-center justify-center">
       <div class="text-center">
         <div class="flex justify-center mb-16">
           <img class="h-64 w-64 rounded-full grayscale contrast-125" src="./resources/portfoliophoto.jpg" alt="Image" />
@@ -21,7 +21,7 @@
 
         <h1 class="font-normal text-gray-900 text-4xl md:text-7xl leading-none mb-8">Software Engineer</h1>
 
-        <p class="font-normal text-gray-600 text-md md:text-xl mb-16">
+        <p class="font-normal text-gray-600 text-md md:text-xl mb-8 sm:mb-16">
           As a backend developer and DevOps Engineer, I have experience maintaining an ERP system using microservices
           architecture.
         </p>
@@ -146,7 +146,7 @@
                 <p class="font-normal text-gray-500 text-sm md:text-base mb-3">2022 - Now</p>
                 <p class="font-normal text-gray-500 text-sm md:text-base">
                   My role is to maintain, develop new features and deliver updates via docker
-                  <br />
+                  <br class="hidden md:block" />
                   swarm, kubernates and linux installations.
                 </p>
               </div>
@@ -163,7 +163,7 @@
                 <p class="font-normal text-gray-500 text-sm md:text-base mb-3">2019</p>
                 <p class="font-normal text-gray-500 text-sm md:text-base">
                   I developed an inventory management application for a client. That enhanced
-                  <br />
+                  <br class="hidden md:block" />
                   multiple processes of the business based on simplicity, usability and efficiency.
                 </p>
               </div>
@@ -230,7 +230,7 @@
 
         <p class="font-normal text-gray-500 text-xs md:text-base mb-20">Below is a summary of the side projects I worked on</p>
 
-        <div class="flex flex-col lg:flex-row justify-between">
+        <div class="grid grid-flow-col justify-stretch lg:justify-between space-x-4">
           <div class="space-y-8 md:space-y-16 mb-16 md:mb-0">
             <h6 class="font-medium text-gray-400 text-base uppercase">Name</h6>
 
@@ -263,7 +263,7 @@
             </p>
           </div>
 
-          <div class="space-y-8 md:space-y-16 mb-16 md:mb-0">
+          <div class="space-y-8 md:space-y-16 mb-16 md:mb-0 hidden lg:block">
             <h6 class="font-medium text-gray-400 text-base uppercase">Description</h6>
 
             <p class="font-normal text-gray-600 text-base">Application for sharing and exploring travel agency plans.</p>
@@ -298,7 +298,7 @@
           Here is a selection of the tools and technologies i utilise in my projects
         </p>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-32 content-center">
+        <div class="grid grid-cols-3 md:grid-cols-5 gap-16 lg:gap-32 place-items-stretch items-stretch content-center">
           <img class="brightness-0 opacity-30" src="./resources/net.png" title=".NET" alt=".NET" />
 
           <img class="brightness-0 opacity-30" src="./resources/spring.png" title="Spring" alt="Spring" />
@@ -317,7 +317,7 @@
 
           <img class="brightness-0 opacity-30" src="./resources/linux.png" title="Linux" alt="Linux" />
 
-          <img class="brightness-0 opacity-30" src="./resources/oracle.png" title="Oracle" alt="Oracle" />
+          <img class="brightness-0 opacity-30 col-start-2 md:col-auto" src="./resources/oracle.png" title="Oracle" alt="Oracle" />
         </div>
       </div>
     </section>
