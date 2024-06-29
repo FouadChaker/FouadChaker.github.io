@@ -1013,6 +1013,18 @@ video {
     margin-bottom: 4rem;
   }
 
+  .sm\:block {
+    display: block;
+  }
+
+  .sm\:inline {
+    display: inline;
+  }
+
+  .sm\:hidden {
+    display: none;
+  }
+
   .sm\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
@@ -1034,6 +1046,10 @@ video {
 
   .md\:block {
     display: block;
+  }
+
+  .md\:hidden {
+    display: none;
   }
 
   .md\:grid-cols-2 {
